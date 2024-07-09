@@ -835,6 +835,7 @@ GameObject:
   - component: {fileID: 2082438686}
   - component: {fileID: 2082438688}
   - component: {fileID: 2082438689}
+  - component: {fileID: 2082438690}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -901,3 +902,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obstacleData: {fileID: 11400000, guid: 5de30122fc200624c892f0d9989d334e, type: 2}
   obstaclePrefab: {fileID: 1047409806116776251, guid: 4b736a53d74d37142a60829f688cd7ce, type: 3}
+--- !u!114 &2082438690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082438685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fb9a1991d569d49b6c421c3aa9f8bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPlayerTurn: 1
